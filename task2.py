@@ -23,11 +23,11 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
-one=input("First word ")
-two=input("second word ")
-three=input("third word ")
-four=input("Fourth word ")
-five=input("Fifth word ")
+one=input("First word ").strip()
+two=input("second word ").strip()
+three=input("third word ").strip()
+four=input("Fourth word ").strip()
+five=input("Fifth word ").strip()
 x=[]
 x.append(one)
 x.append(two)

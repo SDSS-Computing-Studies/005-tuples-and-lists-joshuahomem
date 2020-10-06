@@ -1,3 +1,4 @@
+
 #!python3
 
 """
@@ -7,16 +8,12 @@ Fish
 Dog
 Bear
 Turtle
-
 Sort the list into alphabetical order and and then ask the user to enter a number corresponding
 to the index of an element.  Print the element associated with that index.
-
 inputs:
 integer number
-
 outputs:
 string animal
-
 example:
 Enter the index for an animal:2
 The animal at that index is Dog
@@ -24,10 +21,8 @@ The animal at that index is Dog
 
 
 
-animals =["Cat", "fish", "dog", "bear", "turtle"]
+animals =["Cat","Fish","Dog","Bear","Turtle"]
 animals.sort()
-
-
-number=input("Enter in number").strip()
-
-print(animals[int(number)])
+print(animals)
+ind=int(input("Enter an index of the list: "))
+print("The animal at that index is "+animals[ind])

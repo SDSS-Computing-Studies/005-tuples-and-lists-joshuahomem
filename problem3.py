@@ -24,4 +24,12 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 
-
+b=[]
+a=""
+while a!="-1":
+    a=input("Enter in an interger:").strip()
+    
+    b.append(a)
+if int(a)==-1:
+    b.sort()
+    print(b[-1])

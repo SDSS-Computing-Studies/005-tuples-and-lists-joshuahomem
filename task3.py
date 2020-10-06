@@ -17,4 +17,4 @@ myList = [ 3,6,5,4,6,7,8,6,5,9,4,5 ]
 myList.sort()
 one=myList[0]
 two=myList[-1]
-print("The smallest number is "+str(one)+"and the largest number is "+str(two))
+print("The smallest number is "+str(one)+" and the largest number is "+str(two))

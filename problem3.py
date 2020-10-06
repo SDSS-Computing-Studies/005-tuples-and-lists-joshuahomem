@@ -27,9 +27,10 @@ The largest number you entered is 92
 b=[]
 a=""
 while a!="-1":
-    a=input("Enter in an interger:").strip()
+    a=input("Enter in an interger:")
     
-    b.append(a)
+    b.append(int(a))
+    b.sort()
 if int(a)==-1:
     b.sort()
     print(b[-1])

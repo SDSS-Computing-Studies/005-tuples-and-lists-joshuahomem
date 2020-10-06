@@ -24,7 +24,7 @@ The animal at that index is Dog
 
 
 
-animals =["cat", "fish", "dog", "bear" "turtle"]
+animals =["Cat", "fish", "dog", "bear" "turtle"]
 animals.sort()
 
 

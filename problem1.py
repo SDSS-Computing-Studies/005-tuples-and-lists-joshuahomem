@@ -21,10 +21,10 @@ Enter the replacement:Dan
 """
 people=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
-nameout=input("Chose a person from the list to replace: ")
+nameout=input("Chose a person from the list to replace: ").strip()
 ID=people.index(nameout)
 people.remove(nameout)
 
-namein=input("Enter the replacement: ")
+namein=input("Enter the replacement: ").strip()
 people.insert(int(ID),namein)
 print(people)
